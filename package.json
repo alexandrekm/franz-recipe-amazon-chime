@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "amazon-chime",
   "main": "index.js",
-  "author": "Polkan García <polkan.garcia@gmail.com>",
+  "author": "PG <changux@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.chime.aws/",
