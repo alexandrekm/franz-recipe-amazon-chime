@@ -1,0 +1,24 @@
+{
+  "id": "amazon-chime",
+  "name": "Amazon Chime",
+  "version": "1.0.0",
+  "description": "amazon-chime",
+  "main": "index.js",
+  "author": "Polkan García <polkan.garcia@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.chime.aws/",
+    "serviceName": "Amazon Chime",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
