@@ -1,7 +1,7 @@
 module.exports = Franz => {
     function getMessages() {
         // input the room names you want the unread messages to be counted in the badge
-		var roomsWithNotifications = ["YOUR_ROOM_NAMES"];
+	var roomsWithNotifications = ["YOUR_ROOM_NAMES"];
         const roomList = document.querySelectorAll(".RoomListItemContainer");
 
         var totalMessages = 0;
@@ -9,9 +9,7 @@ module.exports = Franz => {
 			var title = room.querySelector(".RoomListItemContainer__title").innerText.split('\n')[0];
 			var unread = room.querySelector(".RoomListItemContainer__unreadBadge")
 			if (unread) {
-				console.log(title);
 				if (roomsWithNotifications.includes(title)){
-					console.log("room: "+ title + " has " + unread.innerText);
 					totalMessages += parseInt(unread.innerText);
 				}
 			}
